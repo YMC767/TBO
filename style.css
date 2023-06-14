@@ -16,7 +16,8 @@ header {
 
 .side_head {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -25,6 +26,10 @@ header {
   width: 100%;
   float: right;
   padding: 5px;
+}
+
+.nav_button {
+  display: none;
 }
 
 .nav_button img {
@@ -244,7 +249,8 @@ transition: 0.25s;
 
 .news_head {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -444,7 +450,8 @@ transition: 0.25s;
 
 .video_head {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -604,7 +611,8 @@ transition: 0.25s;
 
 .live_head {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -708,7 +716,8 @@ transition: 0.25s;
 
 .merch_main_head {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -2218,7 +2227,8 @@ label[for="menu_switch"] {
 
   .contacts_head {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
   }
 
@@ -2290,6 +2300,11 @@ label[for="menu_switch"] {
 
   .index_menu img {
     max-width: 60%;
+    transition: all 0.5s ease 0s;
+  }
+
+  .index_menu img:hover {
+    transform: scale(1.1);
   }
 
   /* 01home */
@@ -2309,7 +2324,8 @@ label[for="menu_switch"] {
 
   .music_head {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
   }
 
