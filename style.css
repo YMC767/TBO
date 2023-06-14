@@ -683,11 +683,11 @@ transition: 0.25s;
 }
 
 .live_card span:nth-child(1) {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .live_card span:last-child {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .live_card p {
@@ -2530,7 +2530,7 @@ label[for="menu_switch"] {
   /* 05live */
 
   .live_card_display {
-    padding: 70px;
+    padding: 65px;
   }
 
   .live_card_display a {
